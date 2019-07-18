@@ -1,0 +1,56 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+BSS138
+$EndINDEX
+$MODULE BSS138
+Po 0 0 0 15 00000000 00000000 ~~
+Li BSS138
+Cd 
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 0 0 1 0.9 0 0.05 N H 21 "BSS138"
+T1 0 0 1 0.9 0 0.05 N H 21 "VAL**"
+DS 1.422 -0.66 1.422 0.66 0.1524 27
+DS 1.422 0.66 -1.422 0.66 0.1524 27
+DS -1.422 0.66 -1.422 -0.66 0.1524 27
+DS -1.422 -0.66 1.422 -0.66 0.1524 27
+DP 0 0 0 0 4 0 27
+Dl 0.712388 0.7112
+Dl 1.1684 0.7112
+Dl 1.1684 1.29756
+Dl 0.712388 1.29756
+DP 0 0 0 0 4 0 27
+Dl -1.16901 0.7112
+Dl -0.7112 0.7112
+Dl -0.7112 1.29607
+Dl -1.16901 1.29607
+$PAD
+Sh "D" R 1 1.4 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0 -1.1
+$EndPAD
+$PAD
+Sh "S" R 1 1.4 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.95 1.1
+$EndPAD
+$PAD
+Sh "G" R 1 1.4 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.95 1.1
+$EndPAD
+$EndMODULE BSS138

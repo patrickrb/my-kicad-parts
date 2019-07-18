@@ -1,0 +1,38 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# BCAAPC
+#
+DEF BCAAPC J 0 40 Y N 1 L N
+F0 "J" -100 200 50 H V L BNN
+F1 "BCAAPC" -100 -200 50 H V L BNN
+F2 "MPD_BCAAPC" 0 0 50 H I L BNN
+F3 "MPD _Memory" 0 0 50 H I L BNN
+F4 "Holder Battery Aa Plastic Pc Mnt" 0 0 50 H I L BNN
+F5 "Unavailable" 0 0 50 H I L BNN
+F6 "MSOP-12 MPD" 0 0 50 H I L BNN
+F7 "BCAAPC" 0 0 50 H I L BNN
+F8 "None" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -40 -100 -40 0 N
+P 2 0 0 10 -40 0 -40 100 N
+P 2 0 0 10 -40 100 -30 100 N
+P 2 0 0 10 -30 100 -30 -100 N
+P 2 0 0 10 -30 -100 -40 -100 N
+P 2 0 0 10 10 -50 10 50 N
+P 2 0 0 10 50 -100 50 100 N
+P 2 0 0 10 50 100 60 100 N
+P 2 0 0 10 60 100 60 -100 N
+P 2 0 0 10 60 -100 50 -100 N
+P 2 0 0 10 100 -50 100 50 N
+P 2 0 0 10 -100 60 -60 60 N
+P 2 0 0 10 -80 40 -80 80 N
+P 2 0 0 10 -40 0 -100 0 N
+X + + -300 0 200 R 40 40 0 0 P 
+X - - 300 0 200 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

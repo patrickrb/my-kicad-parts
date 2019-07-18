@@ -1,0 +1,64 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+430152070826
+$EndINDEX
+$MODULE 430152070826
+Po 0 0 0 15 00000000 00000000 ~~
+Li 430152070826
+Cd WS-TSS-6x6 mm SMD Tact Switch,4 pins
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 -0.047 -4.6759 1 1 0 0.05 N V 21 "430152070826"
+T1 -0.407 4.4484 1 1 0 0.05 N V 21 "VAL**"
+DS -3.1 -3.1 -3.1 3.1 0.127 21
+DS -3.1 3.1 3.1 3.1 0.127 21
+DS 3.1 3.1 3.1 -3.1 0.127 21
+DS 3.1 -3.1 -3.1 -3.1 0.127 21
+T2 -2.440000 -1.605000 1 1 0 .05 N V 51 "1"
+T2 1.905000 2.340000 1 1 0 .05 N V 51 "4"
+DP 0 0 0 0 4 0.127 26
+Dl -5.08 -3.35
+Dl 5.08 -3.35
+Dl 5.08 3.35
+Dl -5.08 3.35
+T2 1.860000 -1.605000 1 1 0 .05 N V 51 "3"
+T2 -2.240000 2.295000 1 1 0 .05 N V 51 "2"
+DC -3.6 -3.3 -3.55 -3.3 0.2 21
+$PAD
+Sh "1" R 1.55 1.3 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -3.975 -2.25
+$EndPAD
+$PAD
+Sh "3" R 1.55 1.3 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 3.975 -2.25
+$EndPAD
+$PAD
+Sh "2" R 1.55 1.3 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -3.975 2.25
+$EndPAD
+$PAD
+Sh "4" R 1.55 1.3 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 3.975 2.25
+$EndPAD
+$EndMODULE 430152070826

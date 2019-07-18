@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 430152070826
+#
+DEF 430152070826 S 0 40 Y N 1 L N
+F0 "S" 150 50 50 H V L BNN
+F1 "430152070826" 150 -100 50 H V L BNN
+F2 "430152070826" 0 0 50 H I L BNN
+F3 "430152070826" 0 0 50 H I L BNN
+F4 "None" 0 0 50 H I L BNN
+F5 "Unavailable" 0 0 50 H I L BNN
+F6 "Switch Tactile Spst-no 0.05A 12V" 0 0 50 H I L BNN
+F7 "None" 0 0 50 H I L BNN
+F8 "Wurth Electronics" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 100 -200 0 -200 N
+P 2 0 0 10 0 -200 -100 -200 N
+P 2 0 0 10 100 200 0 200 N
+P 2 0 0 10 0 200 -100 200 N
+P 2 0 0 10 0 -200 0 -100 N
+P 2 0 0 10 0 100 0 200 N
+C 0 -74 20 0 0 10 N
+C 0 74 20 0 0 10 N
+P 2 0 0 10 15 55 65 5 N
+X 4 4 200 -200 100 L 40 40 0 0 P 
+X 3 3 200 200 100 L 40 40 0 0 P 
+X 2 2 -200 -200 100 R 40 40 0 0 P 
+X 1 1 -200 200 100 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
